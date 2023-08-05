@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    text-align: center;
+    margin-top: 13%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    margin-bottom: 6%;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+}
+
+button{
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    width: 90px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: small;
+}
+
+button:hover{
+    background-color: rgb(22, 21, 21);
+    transform: translateY(-1px);
+}

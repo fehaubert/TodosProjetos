@@ -1,0 +1,50 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    align-items: center;
+    margin-left: 42%;
+}
+
+#email{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+    padding: 5px;
+}
+
+#senha{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.submit{
+    border-radius: 30px;
+    border: 2px solid #14758d;
+    color: white;
+    width: 33%;
+    height: 40px;
+    padding: 4px;
+    margin-top: 8px;
+    background-color: #14758d;
+    margin-left: 25%;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #0e6170;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:active{
+    box-shadow: 0 0 0 0 #0e6170, inset 2px 2px 2px #0e6170;
+}

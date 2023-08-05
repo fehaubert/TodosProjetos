@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oranienbaum',
+        Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------HEADER------------------------ */
+
+body {
+    background-color: rgb(196, 191, 191);
+}
+
+header {
+    background-size: 100%;
+    height: 7vh;
+}
+
+.primeiro-nav-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    gap: 10px;
+}
+
+h1 {
+    margin-top: 2vh;
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+
+.primeira_nav-link {
+    padding-left: 7px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    border-left: 1px solid;
+    box-sizing: border-box;
+}
+
+.primeira_nav-link_diferente {
+    font-size: 13px;
+    color: black;
+}
+
+/* ----------------MAIN-------------------- */
+
+main {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primeira_sessao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.sessoes {
+    width: 42vw;
+    min-height: 9vh;
+    padding: 0px 10px;
+}
+
+h5 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primeira_sessao p {
+    font-size: 11.5px;
+}
+
+#valores {
+    color: rgb(155, 30, 30);
+}
+
+.sessoes-diferente {
+    width: 42vw;
+    min-height: 9vh;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+}
+
+#primeiro_botao {
+    text-transform: uppercase;
+    background-color: rgb(68, 65, 65);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    min-width: 28vw;
+    height: 4vh;
+    margin-top: 15px;
+}
+
+.segunda_sessao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.quadrado {
+    margin: 30px 0;
+    position: relative;
+    width: 190px;
+    height: 140px;
+    background-color: rgb(233, 229, 229);
+    color: black;
+    box-shadow: 8px 5px 0px rgba(233, 229, 229, 2.4);
+}
+
+.quadrado p {
+    padding-left: 8px;
+    padding-top: 8px;
+    font-size: 11px;
+}
+
+.quadrado #nome {
+    margin: 13px 8px;
+    text-align: end;
+    font-weight: 600;
+}
+
+.imagem_segunda_sessao {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.terceira_sessao {
+    background-image: url(onze.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.terceira_sessao h2 {
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+
+.terceira_sessao p {
+    padding: 0px 13px;
+    font-size: 12px;
+}
+
+#segundo_botao {
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: rgb(68, 65, 65);
+    color: white;
+    border: none;
+    border-radius: 13px;
+    font-size: 12.6px;
+    font-weight: 400;
+    width: 30vw;
+    height: 4vh;
+    margin: 10px 0px;
+}
+
+/* ----------------FOOTER------------------- */
+
+footer {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
+}
+
+footer ol {
+    text-align: center;
+}
+
+footer li {
+    font-size: 10px;
+    list-style-type: none;
+}
+
+#principal {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+footer img {
+    max-width: 10px;
+    padding: 0px 5px;
+}
+
+/* ------------------MOBILE tablet-------------------- */
+
+@media screen and (min-width: 550px) and (max-width: 770px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .primeira_nav-link {
+        font-size: 18px;
+    }
+
+    .primeira_nav-link_diferente {
+        font-size: 18px;
+    }
+
+    main {
+        margin-top: 40px;
+    }
+
+    .primeira_sessao p {
+        font-size: 16px;
+    }
+
+    #primeiro_botao {
+        font-size: 17px;
+        height: 5vh;
+        max-width: 20vw;
+    }
+
+    .segunda_sessao {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .quadrado {
+        margin: 60px 0;
+        width: 260px;
+        height: 190px;
+    }
+
+    .quadrado p {
+        font-size: 14px;
+    }
+
+    .quadrado #nome {
+        margin-top: 26px;
+    }
+
+    .terceira_sessao h2 {
+        font-size: 26px;
+    }
+
+    .terceira_sessao p {
+        padding: 0px 15px;
+        font-size: 16px;
+    }
+
+    #segundo_botao {
+        font-size: 14px;
+        font-weight: 400;
+        width: 32vw;
+        height: 4.5vh;
+        margin: 20px 0px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+
+    #principal {
+        font-size: 14px;
+    }
+
+    footer img {
+        max-width: 13px;
+        padding: 0px 7px;
+    }
+}
+
+/* --------------------MOBILE computador------------------ */
+
+@media screen and (min-width: 771px) and (max-width: 1200px) {
+    h1 {
+        font-size: 46px;
+    }
+
+    .primeira_nav-link {
+        font-size: 23px;
+    }
+
+    .primeira_nav-link_diferente {
+        font-size: 23px;
+    }
+
+    main {
+        margin-top: 60px;
+    }
+
+    .primeira_sessao p {
+        font-size: 16px;
+    }
+
+    #primeiro_botao {
+        font-size: 19px;
+        height: 7vh;
+        max-width: 24vw;
+    }
+
+    .segunda_sessao {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .quadrado {
+        margin: 70px 0;
+        width: 360px;
+        height: 290px;
+    }
+
+    .quadrado p {
+        font-size: 20px;
+    }
+
+    .quadrado #nome {
+        margin-top: 75px;
+    }
+
+    .terceira_sessao {
+        height: 30vh;
+        align-items: center;
+    }
+
+    .terceira_sessao h2 {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+
+    .terceira_sessao p {
+        padding: 0px 20px;
+        font-size: 20px;
+    }
+
+    #segundo_botao {
+        font-size: 17px;
+        font-weight: 400;
+        width: 32vw;
+        height: 5vh;
+        margin: 20px 0px;
+    }
+
+    footer li {
+        font-size: 14px;
+    }
+
+    #principal {
+        font-size: 16px;
+    }
+
+    footer img {
+        max-width: 16px;
+        padding: 0px 9px;
+    }
+}
