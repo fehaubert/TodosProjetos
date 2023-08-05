@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="playlist.css">
+    <script src="playlist.js" defer></script>
+    <title>Playlist</title>
+    <link rel="icon" type="image/x-con" href="simbolo-musica.png">
+</head>
+
+<body>
+    <header>
+        <section class="cabeçalho">
+            <a href="playlist.html">
+                <img class="simbolo" src="simbolo-musica.png" alt="símbolo da música">
+            </a>
+            <nav class="itens">
+                <a id="item" href="entrar.html">Entrar</a>
+                <a id="item" href="início.html">Início</a>
+                <a id="playlist" href="playlist.html">Sua playlist</a>
+            </nav>
+            <input type="text" id="busca" placeholder="Buscar..." />
+        </section>
+    </header>
+
+    <main>
+        <video id="lover" poster="capa-video.jpg" controls>
+            <source src="Taylor Swift - Lover (Official Music Video).mp4" type="video/mp4">
+        </video>
+        <h3 id="nome-video">Taylor Swift - Lover (Official Music Video)</h3>
+        <section class="audios">
+            <audio id="audio-01" controls>
+                <source src="Taylor Swift - Cruel Summer (Official Audio).mp3" type="audio/mp3">
+            </audio>
+            <p>Taylor Swift - Cruel Summer</p>
+            <audio id="audio-02" controls>
+                <source src="Taylor Swift - Daylight (Official Audio).mp3" type="audio/mp3">
+            </audio>
+            <p>Taylor Swift - Daylight</p>
+            <audio id="audio-03" controls>
+                <source src="Taylor Swift - Paper Rings (Official Audio) (1).m4a" type="audio/mp3">
+            </audio>
+            <p>Taylor Swift - Paper Rings</p>
+            <audio id="audio-04" controls>
+                <source src="Taylor Swift - The Archer (Lyric Video).mp3" type="audio/mp3">
+            </audio>
+            <p>Taylor Swift - The Archer</p>
+            <audio id="audio-05" controls>
+                <source src="Taylor Swift - The Man (Official Audio).m4a" type="audio/mp3">
+            </audio>
+            <p>Taylor Swift - The Man</p>
+        </section>
+    </main>
+</body>
+
+</html>
